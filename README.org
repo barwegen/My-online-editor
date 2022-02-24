@@ -18,13 +18,13 @@ Let's see how it works!
 
 ** Working with Emacs org syntax in Github
 
-*** lists 
+*** lists [2.6]
 
 1. groen
 2. rood
 3. blauw
 
-*** footnotes
+*** footnotes [2.8]
 
 This is a footnote: [fn:NAME] or [fn:: This is the
 inline definition of this footnote]
@@ -54,6 +54,8 @@ And a comment block:
 #+BEGIN_COMMENT 
 This is een comment.
 #+END_COMMENT
+
+*** links [4]
 
 *** markup [13]
 
