@@ -1,7 +1,62 @@
-* nextcloud
+#+STARTUP: indent nohideblocks
 
-This repo is for getting text from my mobile phone 
-key one, to my directory ~/Nextcloud, called like 
-this for historic reasons.
+* TODO nextcloud
+:DRAWER:
+
+This repo is for getting text from my mobile phone(s), 
+now the blackberry key one and pinephone, to my
+directory ~/Nextcloud, called like this for historic
+reasons. 
 
 Let's see how it works!
+- org syntax in github readme
+- notes swap file
+- writing a contract in github
+- drafting a procedural document with CDPR
+
+:END:
+
+** Working with Emacs org syntax in Github
+
+*** lists 
+
+1. groen
+2. rood
+3. blauw
+
+*** footnotes
+
+This is a footnote: [fn:NAME] or [fn:: This is the
+inline definition of this footnote]
+
+*** blocks
+
+example block:
+
+#+BEGIN_EXAMPLE
+,* I am no real headline
+#+END_EXAMPLE
+
+Or with semi colon at bol:
+Here is an example
+   : Some example from a text file.
+
+source block in emacs lisp:
+#+NAME: source block 
+#+BEGIN_SRC emacs-lisp
+  (defun org-xor (a b)
+    "Exclusive or."
+    (if a (not b) b))
+ #+END_SRC
+
+And a comment block:
+#+NAME: comment block
+#+BEGIN_COMMENT 
+This is een comment.
+#+END_COMMENT
+
+*** markup [13]
+
+*bold*, /italic/, _underlined_
+
+** h2
