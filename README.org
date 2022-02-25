@@ -17,6 +17,8 @@ This way I can;
 repositories and
 - and "share" public files via github public 
 repositories.
+- edit these files on my pc or laptop with my 
+preffered text editor which at the moment is [[https://www.gnu.org/software/emacs/][Emacs]].
 
 The README.org of this public github repository is my 
 reference file for that.
