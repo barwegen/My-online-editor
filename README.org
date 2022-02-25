@@ -1,6 +1,6 @@
 #+STARTUP: overview indent nohideblocks
 
-* 
+* My online public editor
 :DRAWER:
 
 This repo is for getting text from my mobile phone(s), 
