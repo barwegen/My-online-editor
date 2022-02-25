@@ -91,11 +91,6 @@ This is inside the drawer.
 After the drawer.
  #+END_SRC
 
-**** Footnotes 
-
-This is a footnote: [fn:NAME] or [fn:: This is the
-inline definition of this footnote]
-
 **** 2.8 Blocks
 
 example block:
@@ -156,3 +151,7 @@ inactive timestamp [2006-11-01 Wed]
 
 *bold*, /italic/, _underlined_
 
+**** Footnotes 
+
+This is a footnote: [fn:NAME] or [fn:: This is the
+inline definition of this footnote]
