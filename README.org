@@ -14,19 +14,33 @@ now.
 This way I can;
 - store my text documents as "plain text". 
 - use version control with "git". 
-- view private files online with github private 
-repositories and
-- and "share" public files via github public 
-repositories.
-- edit these files on my pc or laptop with my 
-preffered text editor which at the moment is [[https://www.gnu.org/software/emacs/][Emacs]].
+- view private files online with github private repositories and 
+- and "share" public files via github public repositories.
+- edit these files on my pc or laptop with my preffered text editor which at the moment is [[https://www.gnu.org/software/emacs/][Emacs]].
 
 The README.org of this public github repository is my 
 reference file for that.
 
 Let's see how it works!
 
-** Working with Emacs org syntax in Github
+
+** Plain text markup 
+
+Org mode effective plain-text markup language. 
+
+Org is a mode for keeping notes, maintaining TODO 
+lists, and project planning with a fast and effective 
+plain-text markup language. 
+
+All of this is achieved with strictly plain text 
+files, the most portable and future-proof file format. 
+
+Org runs in Emacs. Emacs is one of the most widely 
+ported programs, so that Org mode is available on 
+every major platform.
+
+
+** Working with org syntax in Github
 
 *** 1. Introduction
 
