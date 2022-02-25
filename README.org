@@ -8,7 +8,8 @@ key one and pinephone, to this directory.
 
 I can use the org syntax (in stead of markdown) since 
 github can render ('export') the .org syntax to html 
-format.
+format, and githubs CSS, which is what you see right 
+now.
 
 This way I can;
 - store my text documents as "plain text". 
