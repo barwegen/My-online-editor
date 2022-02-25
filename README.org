@@ -159,41 +159,42 @@ Link to domain: YES\\
 
 **** Images
 
-images?
+*images: http link*
 
-a1 \\
-: [file:./IMG_20220223_1019218.jpg]
-==> \\
-[file:./IMG_20220223_1019218.jpg] 
-
-a2 \\
-: [./IMG_20220223_1019218.jpg]
-==> \\
-[./IMG_20220223_1019218.jpg] 
-
-b \\
+a \\
 : [[https://github.com/barwegen/nextcloud/IMG_20220223_1019218.jpg][/nextcloud/IMG_20220223_1019218.jpg]]
 ==> \\
 [[https://github.com/barwegen/nextcloud/IMG_20220223_1019218.jpg][/nextcloud/IMG_20220223_1019218.jpg]]
 
-c \\
+b \\
 : [[https://github.com/barwegen/nextcloud/blob/main/IMG_20220223_1019218.jpg]]
 ==> \\
 [[https://github.com/barwegen/nextcloud/blob/main/IMG_20220223_1019218.jpg]]
 
-d \\
+c \\
 : [[https://github.com/barwegen/My-public-online-editor/blob/main/IMG_20220223_1019218.jpg][IMG_20220223_1019218.jpg]]
 ==> \\
 :[[https://github.com/barwegen/My-public-online-editor/blob/main/IMG_20220223_1019218.jpg][IMG_20220223_1019218.jpg]]
 
+*images: file link*
 
-1 \\
+0 a1 \\
+: [file:./IMG_20220223_1019218.jpg]
+==> \\
+[file:./IMG_20220223_1019218.jpg] 
+
+0 a2 \\
+: [./IMG_20220223_1019218.jpg]
+==> \\
+[./IMG_20220223_1019218.jpg] 
+
+1 NO \\
 : ./IMG_20220223_1019218.jpg
 ==> \\
 ./IMG_20220223_1019218.jpg
 
 
-2 \\
+2 NO \\
 : [./IMG_20220223_1019218.jpg]
 ==> \\
 [./IMG_20220223_1019218.jpg]
@@ -203,23 +204,23 @@ d \\
 ==> \\
 [[./IMG_20220223_1019218.jpg]]
 
-4 \\
+4 NO \\
 : ./My-public-online-editor/IMG_20220223_1019218.jpg
 ==>\\
 ./My-public-online-editor/IMG_20220223_1019218.jpg
 
-5 \\
+5 NO \\
 : [./My-public-online-editor/IMG_20220223_1019218.jpg]
 ==> \\
 [./My-public-online-editor/IMG_20220223_1019218.jpg]
 
 
-6 \\
+6 NO \\
 : [[./My-public-online-editor/IMG_20220223_1019218.jpg]]
 ==> \\ 
 [[./My-public-online-editor/IMG_20220223_1019218.jpg]]
 
-7 \\
+7 NO \\
 : [[/My-public-online-editor/IMG_20220223_1019218.jpg]]
 ==> \\ 
 [[/My-public-online-editor/IMG_20220223_1019218.jpg]]
