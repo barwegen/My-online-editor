@@ -161,9 +161,9 @@ Link to domain: YES\\
 /Link to domain/ 
 
 1. YES\\
-: [[https://github.com/barwegen/My-public-online-editor/edit/main/swap-file.org][/nextcloud/swap-file.org]]
+: [[https://github.com/barwegen/My-public-online-editor/edit/main/swap-file.org][swap-file.org]]
 ==> \\
-[[https://github.com/barwegen/My-public-online-editor/edit/main/swap-file.org][/nextcloud/swap-file.org]]
+[[https://github.com/barwegen/My-public-online-editor/edit/main/swap-file.org][swap-file.org]]
 
 /Link to file/ 
 
