@@ -61,6 +61,10 @@ This is een comment.
 
 [[https://github.com/barwegen/nextcloud/edit/main/swap-file.org][/nextcloud/swap-file.org]]
 
+images?
+[file:./IMG_20220223_1019218.jpg]
+
+
 *** markup [13]
 
 *bold*, /italic/, _underlined_
