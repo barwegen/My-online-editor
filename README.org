@@ -10,7 +10,16 @@ I can use the org syntax (in stead of markdown) since
 github can render ('export') the .org syntax to html 
 format.
 
-The README.org of this github repository is my 
+This way I can;
+- store my text documents as "plain 
+text". 
+- use Version control with "git". 
+- view private files online with github private 
+repositories and
+- and "share" public files via github public 
+repositories.
+
+The README.org of this public github repository is my 
 reference file for that.
 
 Let's see how it works!
