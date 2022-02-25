@@ -145,6 +145,9 @@ images?
 [[https://github.com/barwegen/My-public-online-editor/blob/main/IMG_20220223_1019218.jpg][IMG_20220223_1019218.jpg]]
 
 ./IMG_20220223_1019218.jpg
+[./IMG_20220223_1019218.jpg]
+./nextcloud/IMG_20220223_1019218.jpg
+[./nextcloud/IMG_20220223_1019218.jpg]
 
 *** 5. TODO keywords
 *** 6. Tags :tag:
