@@ -137,17 +137,17 @@ This is een comment.
 
 Link to file \\
 
-A
+A NO \\
 : [./swap-file.org]
 ==> \\
 [./swap-file.org]
 
-OR B \\
+OR B NO \\
 : [[./My-public-online-editor/swap-file.org]]
 ==> \\
 [[./My-public-online-editor/swap-file.org]]
 
-OR C \\
+OR C YES\\
 : [[./swap-file.org]]
 ==> \\
 [[./swap-file.org]]
