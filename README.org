@@ -11,9 +11,8 @@ github can render ('export') the .org syntax to html
 format.
 
 This way I can;
-- store my text documents as "plain 
-text". 
-- use Version control with "git". 
+- store my text documents as "plain text". 
+- use version control with "git". 
 - view private files online with github private 
 repositories and
 - and "share" public files via github public 
@@ -23,7 +22,6 @@ The README.org of this public github repository is my
 reference file for that.
 
 Let's see how it works!
-
 
 ** Working with Emacs org syntax in Github
 
