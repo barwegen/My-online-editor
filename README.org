@@ -255,34 +255,13 @@ inactive timestamp [2006-11-01 Wed]
 
 **** 12.1 Paragraphs
 
-*>> Enforce linebreak within paragraph:
- ~\\\~*
+/> Enforce linebreak within paragraph:
+ ~\\\~/
 Paragraphs are separated by at least one empty line. 
 If you need to enforce a line break within a paragraph, 
 use ‘\\’ at the end of a line.
 
-To preserve the line breaks, indentation and blank lines in a region, but otherwise use normal formatting, you can use this construct, which can also be used to format poetry.
-
-#+BEGIN_SRC org
-,#+BEGIN_VERSE
- Great clouds overhead
- Tiny black birds rise and fall
- Snow covers Emacs
-
-    ---AlexSchroeder
-,#+END_VERSE
-#+END_SRC
-
-Result: 
-
-#+BEGIN_VERSE
- Great clouds overhead
- Tiny black birds rise and fall
- Snow covers Emacs
-
-    ---AlexSchroeder
-#+END_VERSE
-
+/>> quoting ~#+BEGIN_QUOTE~
 
 When quoting a passage from another document, it is 
 customary to format this as a paragraph that is 
@@ -302,7 +281,40 @@ In this document looks like this;
 Everything should be made as simple as possible,
 but not any simpler ---Albert Einstein
 #+END_QUOTE
+ 
+Not working on github:
+#+BEGIN_VERSE
+#+BEGIN_CENTER
 
+
+/>>> (blank) line breaks and indentation ~VERSE~
+To preserve the line breaks, indentation and blank 
+lines in a region, but otherwise use normal 
+formatting, you can use this construct, which can 
+also be used to format poetry.
+
+#+BEGIN_SRC org
+,#+BEGIN_VERSE
+ Great clouds overhead
+ Tiny black birds rise and fall
+ Snow covers Emacs
+
+    ---AlexSchroeder
+,#+END_VERSE
+#+END_SRC
+
+Result; not working on github;
+
+#+BEGIN_VERSE
+ Great clouds overhead
+ Tiny black birds rise and fall
+ Snow covers Emacs
+
+    ---AlexSchroeder
+#+END_VERSE
+
+
+/>>>> centering 
 If you would like to center some text, do it like this:
 
 #+BEGIN_SRC org
@@ -312,7 +324,7 @@ but not any simpler
 ,#+END_CENTER
 #+END_SRC
 
-Gives on this webpage:
+Gives on this webpage: not working
 
 #+BEGIN_CENTER
 Everything should be made as simple as possible, \\
