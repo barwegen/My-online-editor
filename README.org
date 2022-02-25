@@ -1,6 +1,6 @@
 #+STARTUP: indent nohideblocks
 
-* TODO nextcloud
+* nextcloud
 :DRAWER:
 
 This repo is for getting text from my mobile phone(s), 
@@ -18,18 +18,20 @@ Let's see how it works!
 
 ** Working with Emacs org syntax in Github
 
-*** lists [2.6]
+*** 2. Structure elements
+
+**** lists [2.6]
 
 1. groen
 2. rood
 3. blauw
 
-*** footnotes [2.8]
+**** footnotes 
 
 This is a footnote: [fn:NAME] or [fn:: This is the
 inline definition of this footnote]
 
-*** blocks
+**** 2.8 Blocks
 
 example block:
 
@@ -55,7 +57,7 @@ And a comment block:
 This is een comment.
 #+END_COMMENT
 
-*** tables [3]
+*** 3. Tables [3]
 
 | N | N^2 | N^3 | N^4 | sqrt(n) | sqrt[4](N) |
 |---+-----+-----+-----+---------+------------|
