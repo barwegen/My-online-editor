@@ -285,6 +285,7 @@ Not working on github:
 - ,#+BEGIN_VERSE
 - ,#+BEGIN_CENTER
 
+# **** Verse and center
 #+BEGIN_COMMENT
 ---------------
 />>> (blank) line breaks and indentation/ ~VERSE~
