@@ -20,7 +20,9 @@ Let's see how it works!
 
 *** 1. Introduction
 
-1.1 Summary
+[[https://orgmode.org/org.html][org mode]]
+
+****  1.1 Summary
 Org is a mode for keeping notes, maintaining TODO
 lists, and project planning with a fast and 
 effective plain-text markup language. It also is an 
