@@ -49,6 +49,13 @@ more stars followed by a space. For example:
 2. rood
 3. blauw
 
+**** 2.7 Drawers - ** This is a headline
+Still outside the drawer
+:DRAWERNAME:
+This is inside the drawer.
+:END:
+After the drawer.
+
 **** Footnotes 
 
 This is a footnote: [fn:NAME] or [fn:: This is the
