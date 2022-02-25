@@ -135,17 +135,17 @@ This is een comment.
 
 **** 1. Links
 
-Link to file
+Link to file \\
 : [./swap-file.org]
-==> 
+==> \\
 [./swap-file.org]
 
-OR
+OR \\
 :[[./My-public-online-editor/swap-file.org]]
-==>\\
+==> \\
 [[./My-public-online-editor/swap-file.org]]
 
-Link to domain:
+Link to domain: \\
 : [[https://github.com/barwegen/My-public-online-editor/edit/main/swap-file.org][/nextcloud/swap-file.org]]
 ==> \\
 [[https://github.com/barwegen/My-public-online-editor/edit/main/swap-file.org][/nextcloud/swap-file.org]]
@@ -154,18 +154,25 @@ Link to domain:
 
 images?
 
-a
-[file:./IMG_20220223_1019218.jpg]
+a \\
+:[file:./IMG_20220223_1019218.jpg]
+==> \\
+[file:./IMG_20220223_1019218.jpg] 
 
-b
+b \\
+:[[https://github.com/barwegen/nextcloud/IMG_20220223_1019218.jpg][/nextcloud/IMG_20220223_1019218.jpg]]
+==> \\
 [[https://github.com/barwegen/nextcloud/IMG_20220223_1019218.jpg][/nextcloud/IMG_20220223_1019218.jpg]]
 
-c
+c \\
+:[[https://github.com/barwegen/nextcloud/blob/main/IMG_20220223_1019218.jpg]]
+==> \\
 [[https://github.com/barwegen/nextcloud/blob/main/IMG_20220223_1019218.jpg]]
 
-d
-[[https://github.com/barwegen/My-public-online-editor/blob/main/IMG_20220223_1019218.jpg][IMG_20220223_1019218.jpg]]
-
+d \\
+:[[https://github.com/barwegen/My-public-online-editor/blob/main/IMG_20220223_1019218.jpg][IMG_20220223_1019218.jpg]]
+==> \\
+:[[https://github.com/barwegen/My-public-online-editor/blob/main/IMG_20220223_1019218.jpg][IMG_20220223_1019218.jpg]]
 
 
 1 \\
