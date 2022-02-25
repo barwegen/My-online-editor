@@ -137,17 +137,17 @@ This is een comment.
 
 Link to file
 : [./swap-file.org]
-==>
+==> 
 [./swap-file.org]
 
 OR
 :[[./My-public-online-editor/swap-file.org]]
-==>
+==>\\
 [[./My-public-online-editor/swap-file.org]]
 
 Link to domain:
 : [[https://github.com/barwegen/My-public-online-editor/edit/main/swap-file.org][/nextcloud/swap-file.org]]
-==>
+==> \\
 [[https://github.com/barwegen/My-public-online-editor/edit/main/swap-file.org][/nextcloud/swap-file.org]]
 
 **** Images
@@ -169,25 +169,42 @@ d
 
 
 1
+:./IMG_20220223_1019218.jpg
+==> \\
 ./IMG_20220223_1019218.jpg
 
+
 2
+;[./IMG_20220223_1019218.jpg]
+==> \\
 [./IMG_20220223_1019218.jpg]
 
 3
+:[[./IMG_20220223_1019218.jpg]]
+==> \\
 [[./IMG_20220223_1019218.jpg]]
 
 4
+:./My-public-online-editor/IMG_20220223_1019218.jpg
+==>\\
 ./My-public-online-editor/IMG_20220223_1019218.jpg
 
 5
+;[./My-public-online-editor/IMG_20220223_1019218.jpg]
+==> \\
 [./My-public-online-editor/IMG_20220223_1019218.jpg]
 
+
 6
+:[[./My-public-online-editor/IMG_20220223_1019218.jpg]]
+==> \\ 
 [[./My-public-online-editor/IMG_20220223_1019218.jpg]]
 
 7
+:[[/My-public-online-editor/IMG_20220223_1019218.jpg]]
+==> \\ 
 [[/My-public-online-editor/IMG_20220223_1019218.jpg]]
+
 
 
 *** 5. TODO keywords
@@ -201,6 +218,7 @@ inactive timestamp [2006-11-01 Wed]
 
 **** 12.1 Paragraphs
 
+* Enforce linebreak within paragraph:* ~\\~
 Paragraphs are separated by at least one empty line. 
 If you need to enforce a line break within a paragraph, 
 use ‘\\’ at the end of a line.
