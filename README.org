@@ -285,9 +285,10 @@ Not working on github:
 - ,#+BEGIN_VERSE
 - ,#+BEGIN_CENTER
 
-# **** Verse and center
 #+BEGIN_COMMENT
 ---------------
+**** Verse and center
+
 />>> (blank) line breaks and indentation/ ~VERSE~
 To preserve the line breaks, indentation and blank 
 lines in a region, but otherwise use normal 
@@ -330,6 +331,7 @@ Gives on this webpage: not working
 Everything should be made as simple as possible, \\
 but not any simpler
 #+END_CENTER
+
 -------------
 #+END_COMMENT
 
