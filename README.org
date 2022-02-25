@@ -109,7 +109,7 @@ source block in emacs lisp:
   (defun org-xor (a b)
     "Exclusive or."
     (if a (not b) b))
- #+END_SRC
+#+END_SRC
 
 And a comment block:
 #+NAME: comment block
@@ -151,6 +151,52 @@ inactive timestamp [2006-11-01 Wed]
 *** 12 Markup 
 
 **** 12.1 Paragraphs
+
+Paragraphs are separated by at least one empty line. 
+If you need to enforce a line break within a paragraph, 
+use ‘\\’ at the end of a line.
+
+To preserve the line breaks, indentation and blank lines in a region, but otherwise use normal formatting, you can use this construct, which can also be used to format poetry.
+
+#+BEGIN_SRC 
+#+END_SRC
+
+#+BEGIN_SRC 
+
+#+BEGIN_VERSE
+ Great clouds overhead
+ Tiny black birds rise and fall
+ Snow covers Emacs
+
+    ---AlexSchroeder
+#+END_VERSE
+
+#+END_SRC
+
+#+BEGIN_VERSE
+ Great clouds overhead
+ Tiny black birds rise and fall
+ Snow covers Emacs
+
+    ---AlexSchroeder
+#+END_VERSE
+
+
+When quoting a passage from another document, it is 
+customary to format this as a paragraph that is 
+indented on both the left and the right margin. You 
+can include quotations in Org documents like this:
+
+#+BEGIN_QUOTE
+Everything should be made as simple as possible,
+but not any simpler ---Albert Einstein
+#+END_QUOTE
+If you would like to center some text, do it like this:
+
+#+BEGIN_CENTER
+Everything should be made as simple as possible, \\
+but not any simpler
+#+END_CENTER
 
 **** 12.2 Emphasis and Monospace
 
