@@ -139,8 +139,11 @@ Link to file
 : [./swap-file.org]
 ==>
 [./swap-file.org]
+
 OR
-[[./My-public-online-editor]]
+:[[./My-public-online-editor/swap-file.org]]
+==>
+[[./My-public-online-editor/swap-file.org]]
 
 Link to domain:
 : [[https://github.com/barwegen/My-public-online-editor/edit/main/swap-file.org][/nextcloud/swap-file.org]]
