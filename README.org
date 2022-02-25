@@ -255,7 +255,7 @@ inactive timestamp [2006-11-01 Wed]
 
 **** 12.1 Paragraphs
 
-/*Enforce linebreak within paragraph:*/ ~\\~
+*/Enforce linebreak within paragraph:/ ~\\~*
 Paragraphs are separated by at least one empty line. 
 If you need to enforce a line break within a paragraph, 
 use ‘\\’ at the end of a line.
