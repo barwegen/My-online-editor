@@ -194,6 +194,8 @@ but not any simpler ---Albert Einstein
 ,#+END_QUOTE
 #+END_SRC
 
+In this document looks like this; 
+
 #+BEGIN_QUOTE
 Everything should be made as simple as possible,
 but not any simpler ---Albert Einstein
@@ -207,6 +209,8 @@ Everything should be made as simple as possible, \\
 but not any simpler
 ,#+END_CENTER
 #+END_SRC
+
+Gives on this webpage:
 
 #+BEGIN_CENTER
 Everything should be made as simple as possible, \\
