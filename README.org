@@ -139,6 +139,7 @@ images?
 [[https://github.com/barwegen/nextcloud/IMG_20220223_1019218.jpg][/nextcloud/IMG_20220223_1019218.jpg]]
 
 [[https://github.com/barwegen/nextcloud/blob/main/IMG_20220223_1019218.jpg]]
+[[https://github.com/barwegen/My-public-online-editor/blob/main/IMG_20220223_1019218.jpg][IMG_20220223_1019218.jpg]]
 
 *** 5. TODO keywords
 *** 6. Tags :tag:
@@ -160,8 +161,9 @@ inactive timestamp [2006-11-01 Wed]
 The radius of the sun is R_sun = 6.96 x 10^8 m.  On the other hand,
 the radius of Alpha Centauri is R_{Alpha Centauri} = 1.28 x R_{sun}.
 
-x^2
+x^2 /
 3^x
+
 
 **** 12.10 Footnotes 
 
