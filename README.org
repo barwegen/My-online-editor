@@ -134,8 +134,7 @@ This is een comment.
 *** 4. Links (and images)
 
 altijd dubbele ~[[ ]]~ EN ~./filename~ (geen dirs), 
-dus;
-
+dus:
 
 : [[./swap-file.org]]
 ==> \\
@@ -150,13 +149,24 @@ Link to domain: YES\\
 ==> \\
 [[./IMG_20220223_1019218.jpg]]
 
+: [[https://github.com/barwegen/My-public-online-editor/blob/main/IMG_20220223_1019218.jpg][IMG_20220223_1019218.jpg]]
+==> \\
+[[https://github.com/barwegen/My-public-online-editor/blob/main/IMG_20220223_1019218.jpg][IMG_20220223_1019218.jpg]]
 
 
 ,#+BEGIN_COMMENT 
 ---------------
 **** 1. Links
 
-Link to file \\
+
+/Link to domain/ 
+
+1. YES\\
+: [[https://github.com/barwegen/My-public-online-editor/edit/main/swap-file.org][/nextcloud/swap-file.org]]
+==> \\
+[[https://github.com/barwegen/My-public-online-editor/edit/main/swap-file.org][/nextcloud/swap-file.org]]
+
+/Link to file/ 
 
 A NO \\
 : [./swap-file.org]
@@ -173,21 +183,16 @@ OR C YES\\
 ==> \\
 [[./swap-file.org]]
 
-Link to domain: YES\\
-: [[https://github.com/barwegen/My-public-online-editor/edit/main/swap-file.org][/nextcloud/swap-file.org]]
-==> \\
-[[https://github.com/barwegen/My-public-online-editor/edit/main/swap-file.org][/nextcloud/swap-file.org]]
-
 **** Images
 
-*images: http link*
+/images: http link/
 
-1 \\
+1 YES? \\
 : [[https://github.com/barwegen/My-public-online-editor/blob/main/IMG_20220223_1019218.jpg][IMG_20220223_1019218.jpg]]
 ==> \\
 [[https://github.com/barwegen/My-public-online-editor/blob/main/IMG_20220223_1019218.jpg][IMG_20220223_1019218.jpg]]
 
-*images: file link*
+/images: file link/
 
 0 a1 NO \\
 : [file:./IMG_20220223_1019218.jpg]
