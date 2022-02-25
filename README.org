@@ -133,6 +133,14 @@ This is een comment.
 
 *** 4. Links (and images)
 
+altijd dubbele ~[[ ]]~ EN ~./filename~ (geen dirs), 
+dus;
+
+: [[./swap-file.org]]
+
+: [[./IMG_20220223_1019218.jpg]]
+
+
 **** 1. Links
 
 Link to file \\
@@ -168,12 +176,12 @@ Link to domain: YES\\
 
 *images: file link*
 
-0 a1 \\
+0 a1 NO \\
 : [file:./IMG_20220223_1019218.jpg]
 ==> \\
 [file:./IMG_20220223_1019218.jpg] 
 
-0 a2 \\
+0 a2 NO \\
 : [./IMG_20220223_1019218.jpg]
 ==> \\
 [./IMG_20220223_1019218.jpg] 
