@@ -79,6 +79,7 @@ images?
 [[https://github.com/barwegen/nextcloud/blob/main/IMG_20220223_1019218.jpg]]
 
 *** Dates and times [8]
+SCHEDULED: <2004-12-25 Sat>
 
 inactive timestamp [2006-11-01 Wed]
 
