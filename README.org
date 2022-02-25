@@ -78,6 +78,10 @@ images?
 
 [[https://github.com/barwegen/nextcloud/blob/main/IMG_20220223_1019218.jpg]]
 
+*** Dates and times [8]
+
+inactive timestamp [2006-11-01 Wed]
+
 *** markup [13]
 
 *bold*, /italic/, _underlined_
