@@ -133,16 +133,35 @@ This is een comment.
 
 *** 4. Links (and images)
 
+**** 1. Links
+
+Link to file
+: [./swap-file.org]
+==>
 [./swap-file.org]
 
+Link to domain:
+: [[https://github.com/barwegen/nextcloud/edit/main/swap-file.org][/nextcloud/swap-file.org]]
+==>
 [[https://github.com/barwegen/nextcloud/edit/main/swap-file.org][/nextcloud/swap-file.org]]
 
+**** Images
+
 images?
+
+a
 [file:./IMG_20220223_1019218.jpg]
+
+b
 [[https://github.com/barwegen/nextcloud/IMG_20220223_1019218.jpg][/nextcloud/IMG_20220223_1019218.jpg]]
 
+c
 [[https://github.com/barwegen/nextcloud/blob/main/IMG_20220223_1019218.jpg]]
+
+d
 [[https://github.com/barwegen/My-public-online-editor/blob/main/IMG_20220223_1019218.jpg][IMG_20220223_1019218.jpg]]
+
+
 
 1
 ./IMG_20220223_1019218.jpg
