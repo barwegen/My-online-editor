@@ -34,13 +34,13 @@ Headlines define the structure of an outline tree.
 Org headlines start on the left margin3 with one or 
 more stars followed by a space. For example:
 
-: ,* Top level headline
-: ,** Second level
-: ,*** Third level
+: * Top level headline
+: ** Second level
+: *** Third level
 :     some text
-: ,*** Third level
+: *** Third level
 :     more text
-: ,* Another top level headline
+: * Another top level headline
 
 
 **** lists [2.6]
