@@ -165,6 +165,18 @@ but not any simpler ---Albert Einstein
 #+END_QUOTE
 
 ***** /source block in emacs lisp:/
+
+#+BEGIN_SRC org
+,#+NAME: source block 
+,#+BEGIN_SRC emacs-lisp
+  (defun org-xor (a b)
+    "Exclusive or."
+    (if a (not b) b))
+,#+END_SRC
+#+END_SRC
+
+==>
+
 #+NAME: source block 
 #+BEGIN_SRC emacs-lisp
   (defun org-xor (a b)
