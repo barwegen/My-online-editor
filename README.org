@@ -59,7 +59,7 @@ This is een comment.
 
 [./swap-file.org]
 
-[[https://github.com/barwegen/nextcloud/edit/main/swap-file.org][swap-file.org]]
+[[https://github.com/barwegen/nextcloud/edit/main/swap-file.org][/nextcloud/swap-file.org]]
 
 *** markup [13]
 
