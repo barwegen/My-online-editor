@@ -255,14 +255,12 @@ inactive timestamp [2006-11-01 Wed]
 
 **** 12.1 Paragraphs
 
-/> Enforce linebreak within paragraph:/
- ~\\\~
+/> Enforce linebreak within paragraph:/ ~\\\~ \\
 Paragraphs are separated by at least one empty line. 
 If you need to enforce a line break within a paragraph, 
 use ‘\\’ at the end of a line.
 
-/>> quoting/ ~#+BEGIN_QUOTE~
-
+/>> quoting/ ~#+BEGIN_QUOTE~ \\
 When quoting a passage from another document, it is 
 customary to format this as a paragraph that is 
 indented on both the left and the right margin. You 
@@ -282,10 +280,10 @@ Everything should be made as simple as possible,
 but not any simpler ---Albert Einstein
 #+END_QUOTE
 
-/>>> VERSE & CENTER/
+/>>> VERSE & CENTER/ \\
 Not working on github:
-,#+BEGIN_VERSE
-,#+BEGIN_CENTER
+- ,#+BEGIN_VERSE
+- ,#+BEGIN_CENTER
 
 #+BEGIN_COMMENT
 ---------------
