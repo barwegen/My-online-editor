@@ -149,7 +149,9 @@ inactive timestamp [2006-11-01 Wed]
 
 *** 12 Markup 
 
-**** 12.1
+**** 12.1 Paragraphs
+
+**** 12.2 
 
 *bold*, /italic/, _underlined_
 
