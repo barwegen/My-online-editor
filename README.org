@@ -155,7 +155,7 @@ inactive timestamp [2006-11-01 Wed]
 
 *bold*, /italic/, _underlined_
 
-**** 12.3
+**** 12.3 
 
 The radius of the sun is R_sun = 6.96 x 10^8 m.  On the other hand,
 the radius of Alpha Centauri is R_{Alpha Centauri} = 1.28 x R_{sun}.
