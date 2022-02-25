@@ -136,11 +136,24 @@ This is een comment.
 altijd dubbele ~[[ ]]~ EN ~./filename~ (geen dirs), 
 dus;
 
+
 : [[./swap-file.org]]
+==> \\
+[[./swap-file.org]]
+
+Link to domain: YES\\
+: [[https://github.com/barwegen/My-public-online-editor/edit/main/swap-file.org][/nextcloud/swap-file.org]]
+==> \\
+[[https://github.com/barwegen/My-public-online-editor/edit/main/swap-file.org][/nextcloud/swap-file.org]]
 
 : [[./IMG_20220223_1019218.jpg]]
+==> \\
+[[./IMG_20220223_1019218.jpg]]
 
 
+
+#+BEGIN_COMMENT 
+---------------
 **** 1. Links
 
 Link to file \\
@@ -223,6 +236,8 @@ Link to domain: YES\\
 ==> \\ 
 [[/My-public-online-editor/IMG_20220223_1019218.jpg]]
 
+-------------
+#+END_COMMENT
 
 
 *** 5. TODO keywords
