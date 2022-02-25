@@ -60,23 +60,34 @@ Headlines define the structure of an outline tree.
 Org headlines start on the left margin3 with one or 
 more stars followed by a space. For example:
 
-: * Top level headline
-: ** Second level
-: *** Third level
-:     some text
-: *** Third level
-:     more text
-: * Another top level headline
 
 #+BEGIN_SRC org
+* Top level headline
+** Second level
+*** Structutre elements - PREVIOUS HEADING!!    
+    Headlines define the structure of an outline tree. 
+    Org headlines start on the left margin3 with one or 
+    more stars followed by a space. For example:
+**** 2.1 Headlines - THIS HEADING!!
+     [...]
+**** 2.6 Lists - NEXT HEADING!!
+* Tables - Another (NEXT!!) top level headline 
 #+END_SRC
 
-
 **** 2.6 Lists 
+#+BEGIN_SRC org
+- green
+  + lime
+  + yellow
+- red
+- blue
+#+END_SRC
 
-1. groen
-2. rood
-3. blauw
+- green
+  + lime
+  + yellow
+- red
+- blue
 
 **** 2.7 Drawers - ** This is a headline
 Still outside the drawer
@@ -96,17 +107,64 @@ After the drawer.
 
 **** 2.8 Blocks
 
-example block:
+***** /example block:/
+
+#+BEGIN_SRC org
+,#+BEGIN_EXAMPLE
+,* I am no real headline
+,#+END_EXAMPLE
+#+END_SRC
+
+==>
 
 #+BEGIN_EXAMPLE
 ,* I am no real headline
 #+END_EXAMPLE
 
-Or with semi colon at bol:
+alternative;
+Or with semi colon at begining of line:
 Here is an example
    : Some example from a text file.
 
-source block in emacs lisp:
+***** /And a comment block:/
+#+BEGIN_SRC org
+#+NAME: comment block
+#+BEGIN_COMMENT 
+This is een comment.
+#+END_COMMENT
+#+END_SRC
+
+==>
+
+the block is not here, it is commented out!!
+
+#+NAME: comment block
+#+BEGIN_COMMENT 
+This is een comment.
+#+END_COMMENT
+
+***** quote block
+quoting/ ~#+BEGIN_QUOTE~ \\
+When quoting a passage from another document, it is 
+customary to format this as a paragraph that is 
+indented on both the left and the right margin. You 
+can include quotations in Org documents like this:
+
+#+BEGIN_SRC org
+,#+BEGIN_QUOTE
+Everything should be made as simple as possible,
+but not any simpler ---Albert Einstein
+,#+END_QUOTE
+#+END_SRC
+
+In this document looks like this; 
+
+#+BEGIN_QUOTE
+Everything should be made as simple as possible,
+but not any simpler ---Albert Einstein
+#+END_QUOTE
+
+***** /source block in emacs lisp:/
 #+NAME: source block 
 #+BEGIN_SRC emacs-lisp
   (defun org-xor (a b)
@@ -114,11 +172,7 @@ source block in emacs lisp:
     (if a (not b) b))
 #+END_SRC
 
-And a comment block:
-#+NAME: comment block
-#+BEGIN_COMMENT 
-This is een comment.
-#+END_COMMENT
+
 
 *** 3. Tables 
 
@@ -154,8 +208,145 @@ Link to domain: YES\\
 [[https://github.com/barwegen/My-public-online-editor/blob/main/IMG_20220223_1019218.jpg][IMG_20220223_1019218.jpg]]
 
 
+
+
+
+*** 5. TODO keywords
+*** 6. Tags :tag:
+*** 8. Dates and times
+SCHEDULED: <2004-12-25 Sat>
+
+inactive timestamp [2006-11-01 Wed]
+
+*** 12 Markup 
+
+**** 12.1 Paragraphs
+
+/> Enforce linebreak within paragraph:/ ~\\\~ \\
+Paragraphs are separated by at least one empty line. 
+If you need to enforce a line break within a paragraph, 
+use ‘\\’ at the end of a line.
+
+/>> quoting/ ~#+BEGIN_QUOTE~ \\
+When quoting a passage from another document, it is 
+customary to format this as a paragraph that is 
+indented on both the left and the right margin. You 
+can include quotations in Org documents like this:
+
+#+BEGIN_SRC org
+,#+BEGIN_QUOTE
+Everything should be made as simple as possible,
+but not any simpler ---Albert Einstein
+,#+END_QUOTE
+#+END_SRC
+
+In this document looks like this; 
+
+#+BEGIN_QUOTE
+Everything should be made as simple as possible,
+but not any simpler ---Albert Einstein
+#+END_QUOTE
+
+/>>> Verse & center/ \\
+Not working on github:
+- ,#+BEGIN_VERSE
+- ,#+BEGIN_CENTER
+
+**** COMMENT Verse and center
+
+/>>> (blank) line breaks and indentation/ ~VERSE~
+To preserve the line breaks, indentation and blank 
+lines in a region, but otherwise use normal 
+formatting, you can use this construct, which can 
+also be used to format poetry.
+
+#+BEGIN_SRC org
+,#+BEGIN_VERSE
+ Great clouds overhead
+ Tiny black birds rise and fall
+ Snow covers Emacs
+
+    ---AlexSchroeder
+,#+END_VERSE
+#+END_SRC
+
+Result; not working on github
+
+#+BEGIN_VERSE
+ Great clouds overhead
+ Tiny black birds rise and fall
+ Snow covers Emacs
+
+    ---AlexSchroeder
+#+END_VERSE
+
+/>>>> centering/ 
+If you would like to center some text, do it like this:
+
+#+BEGIN_SRC org
+,#+BEGIN_CENTER
+Everything should be made as simple as possible, \\
+but not any simpler
+,#+END_CENTER
+#+END_SRC
+
+Gives on this webpage: not working
+
+#+BEGIN_CENTER
+Everything should be made as simple as possible, \\
+but not any simpler
+#+END_CENTER
+
+-------------
+#+END_COMMENT
+
+**** 12.2 Emphasis and Monospace
+
+*bold*, /italic/, _underlined_
+
+**** 12.3 Subscripts and Superscripts
+
+The radius of the sun is R_sun = 6.96 x 10^8 m.  On the other hand,
+the radius of Alpha Centauri is R_{Alpha Centauri} = 1.28 x R_{sun}.
+
+x^2 // \\
+3^x
+
+
+**** 12.10 Footnotes 
+
+This is a footnote: [fn:NAME] or [fn:: This is the
+inline definition of this footnote]
+
+
+
+
 #+BEGIN_COMMENT 
 ---------------
+
+*** 4. Links (and images)
+
+altijd dubbele ~[[ ]]~ EN ~./filename~ (geen dirs), 
+dus:
+
+: [[./swap-file.org]]
+==> \\
+[[./swap-file.org]]
+
+Link to domain: YES\\
+: [[https://github.com/barwegen/My-public-online-editor/edit/main/swap-file.org][swap-file.org]]
+==> \\
+[[https://github.com/barwegen/My-public-online-editor/edit/main/swap-file.org][/swap-file.org]]
+
+: [[./IMG_20220130_1552520.jpg]]
+==> \\
+[[./IMG_20220130_1552520.jpg]]
+
+: [[https://github.com/barwegen/My-public-online-editor/blob/main/IMG_20220223_1019218.jpg][IMG_20220223_1019218.jpg]]
+==> \\
+[[https://github.com/barwegen/My-public-online-editor/blob/main/IMG_20220223_1019218.jpg][IMG_20220223_1019218.jpg]]
+
+
 **** 1. Links
 
 /Link to domain/ 
@@ -242,113 +433,3 @@ OR C YES\\
 
 -------------
 #+END_COMMENT
-
-
-*** 5. TODO keywords
-*** 6. Tags :tag:
-*** 8. Dates and times
-SCHEDULED: <2004-12-25 Sat>
-
-inactive timestamp [2006-11-01 Wed]
-
-*** 12 Markup 
-
-**** 12.1 Paragraphs
-
-/> Enforce linebreak within paragraph:/ ~\\\~ \\
-Paragraphs are separated by at least one empty line. 
-If you need to enforce a line break within a paragraph, 
-use ‘\\’ at the end of a line.
-
-/>> quoting/ ~#+BEGIN_QUOTE~ \\
-When quoting a passage from another document, it is 
-customary to format this as a paragraph that is 
-indented on both the left and the right margin. You 
-can include quotations in Org documents like this:
-
-#+BEGIN_SRC org
-,#+BEGIN_QUOTE
-Everything should be made as simple as possible,
-but not any simpler ---Albert Einstein
-,#+END_QUOTE
-#+END_SRC
-
-In this document looks like this; 
-
-#+BEGIN_QUOTE
-Everything should be made as simple as possible,
-but not any simpler ---Albert Einstein
-#+END_QUOTE
-
-/>>> VERSE & CENTER/ \\
-Not working on github:
-- ,#+BEGIN_VERSE
-- ,#+BEGIN_CENTER
-
-#+BEGIN_COMMENT
----------------
-**** Verse and center
-
-/>>> (blank) line breaks and indentation/ ~VERSE~
-To preserve the line breaks, indentation and blank 
-lines in a region, but otherwise use normal 
-formatting, you can use this construct, which can 
-also be used to format poetry.
-
-#+BEGIN_SRC org
-,#+BEGIN_VERSE
- Great clouds overhead
- Tiny black birds rise and fall
- Snow covers Emacs
-
-    ---AlexSchroeder
-,#+END_VERSE
-#+END_SRC
-
-Result; not working on github;
-
-#+BEGIN_VERSE
- Great clouds overhead
- Tiny black birds rise and fall
- Snow covers Emacs
-
-    ---AlexSchroeder
-#+END_VERSE
-
-/>>>> centering/ 
-If you would like to center some text, do it like this:
-
-#+BEGIN_SRC org
-,#+BEGIN_CENTER
-Everything should be made as simple as possible, \\
-but not any simpler
-,#+END_CENTER
-#+END_SRC
-
-Gives on this webpage: not working
-
-#+BEGIN_CENTER
-Everything should be made as simple as possible, \\
-but not any simpler
-#+END_CENTER
-
--------------
-#+END_COMMENT
-
-**** 12.2 Emphasis and Monospace
-
-*bold*, /italic/, _underlined_
-
-**** 12.3 Subscripts and Superscripts
-
-The radius of the sun is R_sun = 6.96 x 10^8 m.  On the other hand,
-the radius of Alpha Centauri is R_{Alpha Centauri} = 1.28 x R_{sun}.
-
-x^2 // \\
-3^x
-
-
-**** 12.10 Footnotes 
-
-This is a footnote: [fn:NAME] or [fn:: This is the
-inline definition of this footnote]
