@@ -141,7 +141,7 @@ Link to file \\
 [./swap-file.org]
 
 OR \\
-:[[./My-public-online-editor/swap-file.org]]
+: [[./My-public-online-editor/swap-file.org]]
 ==> \\
 [[./My-public-online-editor/swap-file.org]]
 
@@ -155,60 +155,60 @@ Link to domain: \\
 images?
 
 a \\
-:[file:./IMG_20220223_1019218.jpg]
+: [file:./IMG_20220223_1019218.jpg]
 ==> \\
 [file:./IMG_20220223_1019218.jpg] 
 
 b \\
-:[[https://github.com/barwegen/nextcloud/IMG_20220223_1019218.jpg][/nextcloud/IMG_20220223_1019218.jpg]]
+: [[https://github.com/barwegen/nextcloud/IMG_20220223_1019218.jpg][/nextcloud/IMG_20220223_1019218.jpg]]
 ==> \\
 [[https://github.com/barwegen/nextcloud/IMG_20220223_1019218.jpg][/nextcloud/IMG_20220223_1019218.jpg]]
 
 c \\
-:[[https://github.com/barwegen/nextcloud/blob/main/IMG_20220223_1019218.jpg]]
+: [[https://github.com/barwegen/nextcloud/blob/main/IMG_20220223_1019218.jpg]]
 ==> \\
 [[https://github.com/barwegen/nextcloud/blob/main/IMG_20220223_1019218.jpg]]
 
 d \\
-:[[https://github.com/barwegen/My-public-online-editor/blob/main/IMG_20220223_1019218.jpg][IMG_20220223_1019218.jpg]]
+: [[https://github.com/barwegen/My-public-online-editor/blob/main/IMG_20220223_1019218.jpg][IMG_20220223_1019218.jpg]]
 ==> \\
 :[[https://github.com/barwegen/My-public-online-editor/blob/main/IMG_20220223_1019218.jpg][IMG_20220223_1019218.jpg]]
 
 
 1 \\
-:./IMG_20220223_1019218.jpg
+: ./IMG_20220223_1019218.jpg
 ==> \\
 ./IMG_20220223_1019218.jpg
 
 
 2 \\
-;[./IMG_20220223_1019218.jpg]
+: [./IMG_20220223_1019218.jpg]
 ==> \\
 [./IMG_20220223_1019218.jpg]
 
 3 \•
-:[[./IMG_20220223_1019218.jpg]]
+: [[./IMG_20220223_1019218.jpg]]
 ==> \\
 [[./IMG_20220223_1019218.jpg]]
 
 4 \\
-:./My-public-online-editor/IMG_20220223_1019218.jpg
+: ./My-public-online-editor/IMG_20220223_1019218.jpg
 ==>\\
 ./My-public-online-editor/IMG_20220223_1019218.jpg
 
 5 \\
-;[./My-public-online-editor/IMG_20220223_1019218.jpg]
+: [./My-public-online-editor/IMG_20220223_1019218.jpg]
 ==> \\
 [./My-public-online-editor/IMG_20220223_1019218.jpg]
 
 
 6 \\
-:[[./My-public-online-editor/IMG_20220223_1019218.jpg]]
+: [[./My-public-online-editor/IMG_20220223_1019218.jpg]]
 ==> \\ 
 [[./My-public-online-editor/IMG_20220223_1019218.jpg]]
 
 7 \\
-:[[/My-public-online-editor/IMG_20220223_1019218.jpg]]
+: [[/My-public-online-editor/IMG_20220223_1019218.jpg]]
 ==> \\ 
 [[/My-public-online-editor/IMG_20220223_1019218.jpg]]
 
