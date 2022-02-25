@@ -171,6 +171,8 @@ To preserve the line breaks, indentation and blank lines in a region, but otherw
 ,#+END_VERSE
 #+END_SRC
 
+Result: 
+
 #+BEGIN_VERSE
  Great clouds overhead
  Tiny black birds rise and fall
@@ -192,6 +194,11 @@ but not any simpler ---Albert Einstein
 ,#+END_QUOTE
 #+END_SRC
 
+#+BEGIN_QUOTE
+Everything should be made as simple as possible,
+but not any simpler ---Albert Einstein
+#+END_QUOTE
+
 If you would like to center some text, do it like this:
 
 #+BEGIN_SRC org
@@ -200,6 +207,11 @@ Everything should be made as simple as possible, \\
 but not any simpler
 ,#+END_CENTER
 #+END_SRC
+
+#+BEGIN_CENTER
+Everything should be made as simple as possible, \\
+but not any simpler
+#+END_CENTER
 
 **** 12.2 Emphasis and Monospace
 
