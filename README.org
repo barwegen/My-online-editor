@@ -168,39 +168,39 @@ d
 
 
 
-1
+1 \\
 :./IMG_20220223_1019218.jpg
 ==> \\
 ./IMG_20220223_1019218.jpg
 
 
-2
+2 \\
 ;[./IMG_20220223_1019218.jpg]
 ==> \\
 [./IMG_20220223_1019218.jpg]
 
-3
+3 \•
 :[[./IMG_20220223_1019218.jpg]]
 ==> \\
 [[./IMG_20220223_1019218.jpg]]
 
-4
+4 \\
 :./My-public-online-editor/IMG_20220223_1019218.jpg
 ==>\\
 ./My-public-online-editor/IMG_20220223_1019218.jpg
 
-5
+5 \\
 ;[./My-public-online-editor/IMG_20220223_1019218.jpg]
 ==> \\
 [./My-public-online-editor/IMG_20220223_1019218.jpg]
 
 
-6
+6 \\
 :[[./My-public-online-editor/IMG_20220223_1019218.jpg]]
 ==> \\ 
 [[./My-public-online-editor/IMG_20220223_1019218.jpg]]
 
-7
+7 \\
 :[[/My-public-online-editor/IMG_20220223_1019218.jpg]]
 ==> \\ 
 [[/My-public-online-editor/IMG_20220223_1019218.jpg]]
