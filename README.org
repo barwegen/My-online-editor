@@ -56,6 +56,15 @@ This is inside the drawer.
 :END:
 After the drawer.
 
+#+BEGIN_SRC org
+** This is a headline
+Still outside the drawer
+:DRAWERNAME:
+This is inside the drawer.
+:END:
+After the drawer.
+ #+END_SRC
+
 **** Footnotes 
 
 This is a footnote: [fn:NAME] or [fn:: This is the
@@ -121,4 +130,3 @@ inactive timestamp [2006-11-01 Wed]
 
 *bold*, /italic/, _underlined_
 
-** h2
