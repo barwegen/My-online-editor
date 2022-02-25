@@ -57,9 +57,10 @@ This is een comment.
 
 *** links [4]
 
-[./nextcloud/swap-file.org]
+[./swap-file.org]
 
-[[https://github.com/barwegen/nextcloud/edit/main/swap-file.org][swap-file.org]]
+[[https://github.com/barwegen/nextcloud/edit/main/swap-file.org]
+[/nextcloud/swap-file.org]]
 
 *** markup [13]
 
