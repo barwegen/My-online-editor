@@ -282,10 +282,10 @@ Everything should be made as simple as possible,
 but not any simpler ---Albert Einstein
 #+END_QUOTE
 
-/>>> VERSE & CENTER 
+/>>> VERSE & CENTER/
 Not working on github:
-#+BEGIN_VERSE
-#+BEGIN_CENTER
+,#+BEGIN_VERSE
+,#+BEGIN_CENTER
 
 #+BEGIN_COMMENT
 ---------------
