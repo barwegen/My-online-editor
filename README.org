@@ -163,13 +163,13 @@ To preserve the line breaks, indentation and blank lines in a region, but otherw
 
 #+BEGIN_SRC 
 
-#+BEGIN_VERSE
+,#+BEGIN_VERSE
  Great clouds overhead
  Tiny black birds rise and fall
  Snow covers Emacs
 
     ---AlexSchroeder
-#+END_VERSE
+,#+END_VERSE
 
 #+END_SRC
 
