@@ -78,6 +78,8 @@ images?
 
 [[https://github.com/barwegen/nextcloud/blob/main/IMG_20220223_1019218.jpg]]
 
+*** TODO keywords
+*** Tags :tag:
 *** Dates and times [8]
 SCHEDULED: <2004-12-25 Sat>
 
