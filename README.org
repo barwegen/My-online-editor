@@ -1,16 +1,20 @@
 #+STARTUP: overview indent nohideblocks
 
 * My online public editor
-:DRAWER:
 
-This repo is for getting text from my mobile phone(s), 
-now the blackberry key one and pinephone, to this
-directory.
+This repo is for getting text via a browser from any 
+computer, e.g.  my mobile phone(s), now the blackberry 
+key one and pinephone, to this directory.
+
+I can use the org syntax (in stead of markdown) since 
+github can render ('export') the .org syntax to html 
+format.
+
+The README.org of this github repository is my 
+reference file for that.
 
 Let's see how it works!
-- org syntax in github readme
 
-:END:
 
 ** Working with Emacs org syntax in Github
 
