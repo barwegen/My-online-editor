@@ -136,16 +136,23 @@ This is een comment.
 **** 1. Links
 
 Link to file \\
+
+A
 : [./swap-file.org]
 ==> \\
 [./swap-file.org]
 
-OR \\
+OR B \\
 : [[./My-public-online-editor/swap-file.org]]
 ==> \\
 [[./My-public-online-editor/swap-file.org]]
 
-Link to domain: \\
+OR C \\
+: [[./swap-file.org]]
+==> \\
+[[./swap-file.org]]
+
+Link to domain: YES\\
 : [[https://github.com/barwegen/My-public-online-editor/edit/main/swap-file.org][/nextcloud/swap-file.org]]
 ==> \\
 [[https://github.com/barwegen/My-public-online-editor/edit/main/swap-file.org][/nextcloud/swap-file.org]]
@@ -154,10 +161,15 @@ Link to domain: \\
 
 images?
 
-a \\
+a1 \\
 : [file:./IMG_20220223_1019218.jpg]
 ==> \\
 [file:./IMG_20220223_1019218.jpg] 
+
+a2 \\
+: [./IMG_20220223_1019218.jpg]
+==> \\
+[./IMG_20220223_1019218.jpg] 
 
 b \\
 : [[https://github.com/barwegen/nextcloud/IMG_20220223_1019218.jpg][/nextcloud/IMG_20220223_1019218.jpg]]
@@ -186,7 +198,7 @@ d \\
 ==> \\
 [./IMG_20220223_1019218.jpg]
 
-3 \•
+3 YES \\
 : [[./IMG_20220223_1019218.jpg]]
 ==> \\
 [[./IMG_20220223_1019218.jpg]]
