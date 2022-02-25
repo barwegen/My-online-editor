@@ -147,11 +147,13 @@ SCHEDULED: <2004-12-25 Sat>
 
 inactive timestamp [2006-11-01 Wed]
 
-*** 13 Markup 
+*** 12 Markup 
+
+**** 12.1
 
 *bold*, /italic/, _underlined_
 
-**** Footnotes 
+**** 12.10 Footnotes 
 
 This is a footnote: [fn:NAME] or [fn:: This is the
 inline definition of this footnote]
