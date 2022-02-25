@@ -1,18 +1,14 @@
 #+STARTUP: overview indent nohideblocks
 
-* nextcloud
+* 
 :DRAWER:
 
 This repo is for getting text from my mobile phone(s), 
-now the blackberry key one and pinephone, to my
-directory ~/Nextcloud, called like this for historic
-reasons. 
+now the blackberry key one and pinephone, to this
+directory.
 
 Let's see how it works!
 - org syntax in github readme
-- notes swap file
-- writing a contract in github
-- drafting a procedural document with CDPR
 
 :END:
 
